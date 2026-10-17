@@ -21,8 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import meta from "./company/tcs.jpeg";
+import shopify from "./company/concentrix.jpeg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 

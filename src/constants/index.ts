@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Agentic AI Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "SpringBoot Developer",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI Engineer",
     icon: creator,
   },
 ];
@@ -124,38 +124,38 @@ const technologies: TTechnology[] = [
 ];
 
 const experiences: TExperience[] = [
+  // {
+  //   title: "React.js Developer",
+  //   companyName: "Starbucks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "React Native Developer",
+  //   companyName: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Application Developer",
+    companyName: "Concentrix",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2025 - Nov 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -164,110 +164,110 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  title: "Spring Boot Developer",
+  companyName: "Tata Consultancy Services",
+  icon: meta,
+  iconBg: "#E6DEDD",
+  date: "Jan 2026 - Present",
+  points: [
+    "Developing and maintaining backend applications using Spring Boot, Java, and RESTful APIs.",
+    "Designing and implementing REST APIs and integrating them with databases using Spring Data JPA and Hibernate.",
+    "Collaborating with cross-functional teams to build scalable, secure, and efficient enterprise applications.",
+    "Debugging applications, writing clean and reusable code, and participating in code reviews to maintain code quality.",
+  ],
+},
 ];
 
 const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+   name: "Spam Detection Mail Project",
+  description:
+  "Machine learning-based web application that detects spam emails using Natural Language Processing (NLP) and text classification distinguish spam messages from legitimate emails.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "LLM",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Streamlit",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Mukul-Verma15",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Bank Management System",
+description:
+  "A banking application that allows users to manage bank accounts, perform deposits and withdrawals, check account balances, view transaction history, and securely manage customer information.",
     tags: [
       {
-        name: "react",
+        name: "SpringBoot",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "RESTAPI",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Mukul-Verma15",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+   name: "Employee Management System",
+description:
+  "A web application that enables administrators to add, update, view, and delete employee records, manage employee details. ",
     tags: [
       {
-        name: "nextjs",
+        name: "Springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "RestAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Angular",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Mukul-Verma15",
   },
 ];
 
