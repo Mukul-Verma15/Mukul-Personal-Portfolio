@@ -15,20 +15,10 @@ type TConfig = {
     p: string[];
   };
   contact: {
-    form: {
-      name: {
-        span: string;
-        placeholder: string;
-      };
-      email: {
-        span: string;
-        placeholder: string;
-      };
-      message: {
-        span: string;
-        placeholder: string;
-      };
-    };
+    whatsapp: string;
+    phone: string;
+    email: string;
+    whatsappMessage?: string;
   } & TSection;
   sections: {
     about: Required<TSection>;
@@ -51,17 +41,11 @@ export const config: TConfig = {
   contact: {
     p: "Get in touch",
     h2: "Contact.",
-    form: {
-      name: {
-        span: "Your Name",
-        placeholder: "What's your name?",
-      },
-      email: { span: "Your Email", placeholder: "What's your email?" },
-      message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
-      },
-    },
+    // 👇 Replace these with YOUR real details (they are used for the contact icons)
+    whatsapp: "919935149561", // country code + number, no "+" or spaces (e.g. 91XXXXXXXXXX)
+    phone: "+919935149561", // your mobile number for calls (tel: link)
+    email: "mukulallen4@mail.com", // your email address (mailto: link)
+    whatsappMessage: "Hi Mukul, I found your portfolio and wanted to reach out!",
   },
   sections: {
     about: {
